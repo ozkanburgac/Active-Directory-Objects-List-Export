@@ -1,0 +1,1 @@
+﻿Get-ADUser -Filter * -Properties DisplayName, EmailAddress, Title | select DisplayName, EmailAddress, Title | Export-CSV C:\Email_Addresses.csv
